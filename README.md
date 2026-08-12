@@ -24,14 +24,17 @@ graph LR
     G -- Black Wire (Ground) --> GND
     P27 -- Yellow Wire (Signal) --> OUT
     
-    style ESP32 fill:#f9f9f9,stroke:#333,stroke-width:2px
-    style IR_Sensor fill:#e6f3ff,stroke:#333,stroke-width:2px
-    style V33 fill:#ffcccc,stroke:#ff0000
-    style G fill:#cccccc,stroke:#000000
-    style P27 fill:#ffffcc,stroke:#cccc00
-    style VCC fill:#ffcccc,stroke:#ff0000
-    style GND fill:#cccccc,stroke:#000000
-    style OUT fill:#ffffcc,stroke:#cccc00
+    style ESP32 fill:#f8f9fa,stroke:#ced4da,stroke-width:2px
+    style IR_Sensor fill:#f8f9fa,stroke:#ced4da,stroke-width:2px
+    
+    style V33 fill:#dc3545,stroke:#a71d2a,color:#fff,stroke-width:2px
+    style VCC fill:#dc3545,stroke:#a71d2a,color:#fff,stroke-width:2px
+    
+    style G fill:#343a40,stroke:#212529,color:#fff,stroke-width:2px
+    style GND fill:#343a40,stroke:#212529,color:#fff,stroke-width:2px
+    
+    style P27 fill:#ffc107,stroke:#d39e00,color:#000,stroke-width:2px
+    style OUT fill:#ffc107,stroke:#d39e00,color:#000,stroke-width:2px
 ```
 
 ### Pin Mapping Table
