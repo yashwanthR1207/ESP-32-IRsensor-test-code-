@@ -1,6 +1,6 @@
 # ESP32 IR Sensor Presence Detector
 
-A clean and efficient project for detecting presence using an ESP32 microcontroller and an Infrared (IR) Obstacle Avoidance Sensor. This setup reads the sensor's digital output and triggers an alert via the Serial Monitor and the onboard LED.
+ project for detecting presence using an ESP32 microcontroller and an Infrared (IR) Obstacle Avoidance Sensor. This setup reads the sensor's digital output and triggers an alert via the Serial Monitor and the onboard LED.
 
 ## Circuit Representation
 
@@ -63,4 +63,4 @@ graph LR
 4. Click **Upload** to flash the code to your microcontroller.
 5. Open the **Serial Monitor** and set the baud rate to `115200`.
 6. Place an object in front of the IR sensor to observe the presence detection in real-time.
-# ESP-32-IRsensor-test-code-
+
